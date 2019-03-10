@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import './Styles.css';
-import RandomNumbers from './views/RandomNumbers/RandomNumbers'
+import RandomNumbersContainer from './views/RandomNumbers/RandomNumbersContainer'
 
 class App extends Component {
   render() {
     return (
-      <RandomNumbers />
+      <RandomNumbersContainer />
     );
   }
 }

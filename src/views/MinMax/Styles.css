@@ -1,0 +1,23 @@
+.min-max-card {
+  width: 300px;
+  margin: 20px auto;
+  height: 90px;
+  background: yellow;
+}
+
+.title-text {
+  height: 40px;
+  line-height: 40px;
+  background: red;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.min-max-value {
+  height: 30px;
+  padding: 10px 0px;
+  line-height: 30px;
+  text-align: center;
+}
