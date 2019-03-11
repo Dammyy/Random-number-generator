@@ -1,11 +1,10 @@
-import { SORT_BY_ASCENDING, SORT_BY_DESCENDING } from "./constants";
+import { ADD_NUMBERS_TO_STATE, CLEAR_STATE } from "./constants";
 
-export const sortByAscending = (randomNumbers) => ({
-  type: SORT_BY_ASCENDING,
+export const addNumbersToState = (randomNumbers) => ({
+  type: ADD_NUMBERS_TO_STATE,
   randomNumbers
 })
 
-export const sortByDescending = (randomNumbers) => ({
-  type: SORT_BY_DESCENDING,
-  randomNumbers
+export const clearRandomNumbers = () => ({
+  type: CLEAR_STATE,
 })
