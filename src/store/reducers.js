@@ -1,5 +1,3 @@
-import { SORT_BY_ASCENDING, SORT_BY_DESCENDING } from "./constants";
-
 const initialState = {
   randomNumbers: [],
   randomNumbersAsc: [],

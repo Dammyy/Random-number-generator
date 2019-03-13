@@ -1,0 +1,1250 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RandomNumbers
+    RandomNumbers={
+      Array [
+        "004956594304956",
+        "4576584932834",
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <div
+          className="header"
+        >
+          <h1>
+            RANDOM PHONE NUMBER GENERATOR
+          </h1>
+        </div>,
+        <div
+          className="wrap"
+        >
+          <div
+            className="display-left"
+          >
+            <form
+              className="input-form"
+              onSubmit={[Function]}
+            >
+              <input
+                onChange={[Function]}
+                placeholder="Enter a number"
+                type="text"
+                value=""
+              />
+              <input
+                type="submit"
+                value="Generate Numbers"
+              />
+            </form>
+            <MinMax
+              title="Min Number"
+              value="0000000000"
+            />
+            <MinMax
+              title="Max Number"
+              value="111111111"
+            />
+          </div>
+          <div
+            className="generated-numbers"
+          >
+            <div
+              className="title-text"
+            >
+              Generated Numbers 
+              
+            </div>
+            <form
+              className="input-form"
+              onSubmit={[Function]}
+            >
+              <select
+                onChange={[Function]}
+                value=""
+              >
+                <option
+                  value="unsorted"
+                >
+                  unsorted
+                </option>
+                <option
+                  value="lime"
+                >
+                  ascending
+                </option>
+                <option
+                  value="coconut"
+                >
+                  descending
+                </option>
+              </select>
+              <input
+                type="submit"
+                value="Sort"
+              />
+            </form>
+            <div
+              className="listItem"
+            >
+              004956594304956
+            </div>
+            <div
+              className="listItem"
+            >
+              4576584932834
+            </div>
+            <div
+              className="download-button"
+            >
+              <button
+                onclick={[Function]}
+              >
+                Download Numbers
+              </button>
+            </div>
+          </div>
+        </div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <h1>
+            RANDOM PHONE NUMBER GENERATOR
+          </h1>,
+          "className": "header",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "RANDOM PHONE NUMBER GENERATOR",
+          },
+          "ref": null,
+          "rendered": "RANDOM PHONE NUMBER GENERATOR",
+          "type": "h1",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="display-left"
+            >
+              <form
+                className="input-form"
+                onSubmit={[Function]}
+              >
+                <input
+                  onChange={[Function]}
+                  placeholder="Enter a number"
+                  type="text"
+                  value=""
+                />
+                <input
+                  type="submit"
+                  value="Generate Numbers"
+                />
+              </form>
+              <MinMax
+                title="Min Number"
+                value="0000000000"
+              />
+              <MinMax
+                title="Max Number"
+                value="111111111"
+              />
+            </div>,
+            <div
+              className="generated-numbers"
+            >
+              <div
+                className="title-text"
+              >
+                Generated Numbers 
+                
+              </div>
+              <form
+                className="input-form"
+                onSubmit={[Function]}
+              >
+                <select
+                  onChange={[Function]}
+                  value=""
+                >
+                  <option
+                    value="unsorted"
+                  >
+                    unsorted
+                  </option>
+                  <option
+                    value="lime"
+                  >
+                    ascending
+                  </option>
+                  <option
+                    value="coconut"
+                  >
+                    descending
+                  </option>
+                </select>
+                <input
+                  type="submit"
+                  value="Sort"
+                />
+              </form>
+              <div
+                className="listItem"
+              >
+                004956594304956
+              </div>
+              <div
+                className="listItem"
+              >
+                4576584932834
+              </div>
+              <div
+                className="download-button"
+              >
+                <button
+                  onclick={[Function]}
+                >
+                  Download Numbers
+                </button>
+              </div>
+            </div>,
+          ],
+          "className": "wrap",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <form
+                  className="input-form"
+                  onSubmit={[Function]}
+                >
+                  <input
+                    onChange={[Function]}
+                    placeholder="Enter a number"
+                    type="text"
+                    value=""
+                  />
+                  <input
+                    type="submit"
+                    value="Generate Numbers"
+                  />
+                </form>,
+                <MinMax
+                  title="Min Number"
+                  value="0000000000"
+                />,
+                <MinMax
+                  title="Max Number"
+                  value="111111111"
+                />,
+              ],
+              "className": "display-left",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <input
+                      onChange={[Function]}
+                      placeholder="Enter a number"
+                      type="text"
+                      value=""
+                    />,
+                    <input
+                      type="submit"
+                      value="Generate Numbers"
+                    />,
+                  ],
+                  "className": "input-form",
+                  "onSubmit": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "onChange": [Function],
+                      "placeholder": "Enter a number",
+                      "type": "text",
+                      "value": "",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "type": "submit",
+                      "value": "Generate Numbers",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                ],
+                "type": "form",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "title": "Min Number",
+                  "value": "0000000000",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "title": "Max Number",
+                  "value": "111111111",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="title-text"
+                >
+                  Generated Numbers 
+                  
+                </div>,
+                <form
+                  className="input-form"
+                  onSubmit={[Function]}
+                >
+                  <select
+                    onChange={[Function]}
+                    value=""
+                  >
+                    <option
+                      value="unsorted"
+                    >
+                      unsorted
+                    </option>
+                    <option
+                      value="lime"
+                    >
+                      ascending
+                    </option>
+                    <option
+                      value="coconut"
+                    >
+                      descending
+                    </option>
+                  </select>
+                  <input
+                    type="submit"
+                    value="Sort"
+                  />
+                </form>,
+                Array [
+                  <div
+                    className="listItem"
+                  >
+                    004956594304956
+                  </div>,
+                  <div
+                    className="listItem"
+                  >
+                    4576584932834
+                  </div>,
+                ],
+                <div
+                  className="download-button"
+                >
+                  <button
+                    onclick={[Function]}
+                  >
+                    Download Numbers
+                  </button>
+                </div>,
+              ],
+              "className": "generated-numbers",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "Generated Numbers ",
+                    "",
+                  ],
+                  "className": "title-text",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Generated Numbers ",
+                  "",
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <select
+                      onChange={[Function]}
+                      value=""
+                    >
+                      <option
+                        value="unsorted"
+                      >
+                        unsorted
+                      </option>
+                      <option
+                        value="lime"
+                      >
+                        ascending
+                      </option>
+                      <option
+                        value="coconut"
+                      >
+                        descending
+                      </option>
+                    </select>,
+                    <input
+                      type="submit"
+                      value="Sort"
+                    />,
+                  ],
+                  "className": "input-form",
+                  "onSubmit": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <option
+                          value="unsorted"
+                        >
+                          unsorted
+                        </option>,
+                        <option
+                          value="lime"
+                        >
+                          ascending
+                        </option>,
+                        <option
+                          value="coconut"
+                        >
+                          descending
+                        </option>,
+                      ],
+                      "onChange": [Function],
+                      "value": "",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "unsorted",
+                          "value": "unsorted",
+                        },
+                        "ref": null,
+                        "rendered": "unsorted",
+                        "type": "option",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "ascending",
+                          "value": "lime",
+                        },
+                        "ref": null,
+                        "rendered": "ascending",
+                        "type": "option",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "descending",
+                          "value": "coconut",
+                        },
+                        "ref": null,
+                        "rendered": "descending",
+                        "type": "option",
+                      },
+                    ],
+                    "type": "select",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "type": "submit",
+                      "value": "Sort",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                ],
+                "type": "form",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "004956594304956",
+                  "className": "listItem",
+                },
+                "ref": null,
+                "rendered": "004956594304956",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "4576584932834",
+                  "className": "listItem",
+                },
+                "ref": null,
+                "rendered": "4576584932834",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <button
+                    onclick={[Function]}
+                  >
+                    Download Numbers
+                  </button>,
+                  "className": "download-button",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Download Numbers",
+                    "onclick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": "Download Numbers",
+                  "type": "button",
+                },
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <div
+            className="header"
+          >
+            <h1>
+              RANDOM PHONE NUMBER GENERATOR
+            </h1>
+          </div>,
+          <div
+            className="wrap"
+          >
+            <div
+              className="display-left"
+            >
+              <form
+                className="input-form"
+                onSubmit={[Function]}
+              >
+                <input
+                  onChange={[Function]}
+                  placeholder="Enter a number"
+                  type="text"
+                  value=""
+                />
+                <input
+                  type="submit"
+                  value="Generate Numbers"
+                />
+              </form>
+              <MinMax
+                title="Min Number"
+                value="0000000000"
+              />
+              <MinMax
+                title="Max Number"
+                value="111111111"
+              />
+            </div>
+            <div
+              className="generated-numbers"
+            >
+              <div
+                className="title-text"
+              >
+                Generated Numbers 
+                
+              </div>
+              <form
+                className="input-form"
+                onSubmit={[Function]}
+              >
+                <select
+                  onChange={[Function]}
+                  value=""
+                >
+                  <option
+                    value="unsorted"
+                  >
+                    unsorted
+                  </option>
+                  <option
+                    value="lime"
+                  >
+                    ascending
+                  </option>
+                  <option
+                    value="coconut"
+                  >
+                    descending
+                  </option>
+                </select>
+                <input
+                  type="submit"
+                  value="Sort"
+                />
+              </form>
+              <div
+                className="listItem"
+              >
+                004956594304956
+              </div>
+              <div
+                className="listItem"
+              >
+                4576584932834
+              </div>
+              <div
+                className="download-button"
+              >
+                <button
+                  onclick={[Function]}
+                >
+                  Download Numbers
+                </button>
+              </div>
+            </div>
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <h1>
+              RANDOM PHONE NUMBER GENERATOR
+            </h1>,
+            "className": "header",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "RANDOM PHONE NUMBER GENERATOR",
+            },
+            "ref": null,
+            "rendered": "RANDOM PHONE NUMBER GENERATOR",
+            "type": "h1",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="display-left"
+              >
+                <form
+                  className="input-form"
+                  onSubmit={[Function]}
+                >
+                  <input
+                    onChange={[Function]}
+                    placeholder="Enter a number"
+                    type="text"
+                    value=""
+                  />
+                  <input
+                    type="submit"
+                    value="Generate Numbers"
+                  />
+                </form>
+                <MinMax
+                  title="Min Number"
+                  value="0000000000"
+                />
+                <MinMax
+                  title="Max Number"
+                  value="111111111"
+                />
+              </div>,
+              <div
+                className="generated-numbers"
+              >
+                <div
+                  className="title-text"
+                >
+                  Generated Numbers 
+                  
+                </div>
+                <form
+                  className="input-form"
+                  onSubmit={[Function]}
+                >
+                  <select
+                    onChange={[Function]}
+                    value=""
+                  >
+                    <option
+                      value="unsorted"
+                    >
+                      unsorted
+                    </option>
+                    <option
+                      value="lime"
+                    >
+                      ascending
+                    </option>
+                    <option
+                      value="coconut"
+                    >
+                      descending
+                    </option>
+                  </select>
+                  <input
+                    type="submit"
+                    value="Sort"
+                  />
+                </form>
+                <div
+                  className="listItem"
+                >
+                  004956594304956
+                </div>
+                <div
+                  className="listItem"
+                >
+                  4576584932834
+                </div>
+                <div
+                  className="download-button"
+                >
+                  <button
+                    onclick={[Function]}
+                  >
+                    Download Numbers
+                  </button>
+                </div>
+              </div>,
+            ],
+            "className": "wrap",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <form
+                    className="input-form"
+                    onSubmit={[Function]}
+                  >
+                    <input
+                      onChange={[Function]}
+                      placeholder="Enter a number"
+                      type="text"
+                      value=""
+                    />
+                    <input
+                      type="submit"
+                      value="Generate Numbers"
+                    />
+                  </form>,
+                  <MinMax
+                    title="Min Number"
+                    value="0000000000"
+                  />,
+                  <MinMax
+                    title="Max Number"
+                    value="111111111"
+                  />,
+                ],
+                "className": "display-left",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <input
+                        onChange={[Function]}
+                        placeholder="Enter a number"
+                        type="text"
+                        value=""
+                      />,
+                      <input
+                        type="submit"
+                        value="Generate Numbers"
+                      />,
+                    ],
+                    "className": "input-form",
+                    "onSubmit": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "onChange": [Function],
+                        "placeholder": "Enter a number",
+                        "type": "text",
+                        "value": "",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "type": "submit",
+                        "value": "Generate Numbers",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
+                    },
+                  ],
+                  "type": "form",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "title": "Min Number",
+                    "value": "0000000000",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "title": "Max Number",
+                    "value": "111111111",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="title-text"
+                  >
+                    Generated Numbers 
+                    
+                  </div>,
+                  <form
+                    className="input-form"
+                    onSubmit={[Function]}
+                  >
+                    <select
+                      onChange={[Function]}
+                      value=""
+                    >
+                      <option
+                        value="unsorted"
+                      >
+                        unsorted
+                      </option>
+                      <option
+                        value="lime"
+                      >
+                        ascending
+                      </option>
+                      <option
+                        value="coconut"
+                      >
+                        descending
+                      </option>
+                    </select>
+                    <input
+                      type="submit"
+                      value="Sort"
+                    />
+                  </form>,
+                  Array [
+                    <div
+                      className="listItem"
+                    >
+                      004956594304956
+                    </div>,
+                    <div
+                      className="listItem"
+                    >
+                      4576584932834
+                    </div>,
+                  ],
+                  <div
+                    className="download-button"
+                  >
+                    <button
+                      onclick={[Function]}
+                    >
+                      Download Numbers
+                    </button>
+                  </div>,
+                ],
+                "className": "generated-numbers",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "Generated Numbers ",
+                      "",
+                    ],
+                    "className": "title-text",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Generated Numbers ",
+                    "",
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <select
+                        onChange={[Function]}
+                        value=""
+                      >
+                        <option
+                          value="unsorted"
+                        >
+                          unsorted
+                        </option>
+                        <option
+                          value="lime"
+                        >
+                          ascending
+                        </option>
+                        <option
+                          value="coconut"
+                        >
+                          descending
+                        </option>
+                      </select>,
+                      <input
+                        type="submit"
+                        value="Sort"
+                      />,
+                    ],
+                    "className": "input-form",
+                    "onSubmit": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <option
+                            value="unsorted"
+                          >
+                            unsorted
+                          </option>,
+                          <option
+                            value="lime"
+                          >
+                            ascending
+                          </option>,
+                          <option
+                            value="coconut"
+                          >
+                            descending
+                          </option>,
+                        ],
+                        "onChange": [Function],
+                        "value": "",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "unsorted",
+                            "value": "unsorted",
+                          },
+                          "ref": null,
+                          "rendered": "unsorted",
+                          "type": "option",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "ascending",
+                            "value": "lime",
+                          },
+                          "ref": null,
+                          "rendered": "ascending",
+                          "type": "option",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "descending",
+                            "value": "coconut",
+                          },
+                          "ref": null,
+                          "rendered": "descending",
+                          "type": "option",
+                        },
+                      ],
+                      "type": "select",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "type": "submit",
+                        "value": "Sort",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
+                    },
+                  ],
+                  "type": "form",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "004956594304956",
+                    "className": "listItem",
+                  },
+                  "ref": null,
+                  "rendered": "004956594304956",
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "4576584932834",
+                    "className": "listItem",
+                  },
+                  "ref": null,
+                  "rendered": "4576584932834",
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <button
+                      onclick={[Function]}
+                    >
+                      Download Numbers
+                    </button>,
+                    "className": "download-button",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Download Numbers",
+                      "onclick": [Function],
+                    },
+                    "ref": null,
+                    "rendered": "Download Numbers",
+                    "type": "button",
+                  },
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
