@@ -1,16 +1,17 @@
 .min-max-card {
-  width: 300px;
+  width: 400px;
   margin: 20px auto;
   height: 90px;
-  background: yellow;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
 }
 
-.title-text {
+.min-max-card-title {
   height: 40px;
   line-height: 40px;
-  background: red;
+  background: #e8e8e8;
   text-align: center;
-  color: white;
+  color: #606066;
   font-weight: bold;
   font-size: 19px;
 }
@@ -20,4 +21,6 @@
   padding: 10px 0px;
   line-height: 30px;
   text-align: center;
+  color: #000;
+  font-weight: bold;
 }

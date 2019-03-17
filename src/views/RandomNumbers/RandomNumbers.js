@@ -1,13 +1,14 @@
 import React, { Component } from "react";
 import MinMax from "../MinMax";
 import FileSaver from "file-saver";
+import find from "lodash/find";
 import "./Styles.css";
 
 class RandomNumbers extends Component {
   state = {
     value: "",
     sortType: "",
-    generated: false,
+    generated: false
   };
 
   handleChange = event => {
@@ -23,15 +24,25 @@ class RandomNumbers extends Component {
     const { value } = this.state;
     let randomNumbers = [];
 
-    while (value > randomNumbers.length) {
-      const randomNumber = Math.floor(Math.random() * 90000) + 1000000;
-      randomNumbers.push({ number: randomNumber });
-    }
+    if (value < 8001) {
+      while (value > randomNumbers.length) {
+        const randomNumber = Math.floor(Math.random() * 90000) + 1000000;
 
-    this.setState({
-      generated: true
-    });
-    this.props.addNumbersToState(randomNumbers);
+        !find(randomNumbers, ["number", randomNumber]) &&
+          randomNumbers.push({ number: randomNumber });
+      }
+
+      this.setState({
+        generated: true,
+        message: ""
+      });
+
+      this.props.addNumbersToState(randomNumbers);
+    } else {
+      this.setState({
+        message: "Number exceeds the maximum allowed"
+      });
+    }
   };
 
   getDataTomap = () => {
@@ -69,11 +80,11 @@ class RandomNumbers extends Component {
       sortType: ""
     });
 
-    this.props.clearRandomNumbers()
+    this.props.clearRandomNumbers();
   };
 
   render() {
-    const { value, sortType, generated } = this.state;
+    const { value, sortType, generated, message } = this.state;
     const { maximumNumber, minimumNumber } = this.props;
     return (
       <React.Fragment>
@@ -82,15 +93,18 @@ class RandomNumbers extends Component {
         </div>
         <div className="wrap">
           <div className="display-left">
+            <div className="title-text">Enter Number (Max allowed - 8000)</div>
             <form className="input-form" onSubmit={this.generateNumbers}>
               <input
-                type="text"
+                type="number"
                 value={value}
                 placeholder={"Enter a number"}
                 onChange={this.handleChange}
               />
               <input type="submit" value="Generate Numbers" />
-              <button className="clear-button" onClick={this.clearList}>Clear</button>
+              <button className="clear-button" onClick={this.clearList}>
+                Clear
+              </button>
             </form>
             <MinMax
               title={"Min Number"}
@@ -103,7 +117,7 @@ class RandomNumbers extends Component {
           </div>
           <div className="generated-numbers">
             <div className="title-text">
-              Generated Numbers {generated ? `(${value})` : ""}
+              Generated Numbers {generated && value ? `(${value})` : ""}
             </div>
             <select
               className="sort-type"
@@ -114,9 +128,13 @@ class RandomNumbers extends Component {
               <option value="asc">ascending</option>
               <option value="desc">descending</option>
             </select>
-            {this.displayNumbers()}
+            <div className="display-numbers">
+              {message ? message : this.displayNumbers()}
+            </div>
             <div className="download-button">
-              <button onClick={this.downloadNumbers}>Download Numbers</button>
+              <button className="download-btn" onClick={this.downloadNumbers}>
+                Download Numbers
+              </button>
             </div>
           </div>
         </div>

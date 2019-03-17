@@ -47,6 +47,11 @@ ShallowWrapper {
           <div
             className="display-left"
           >
+            <div
+              className="title-text"
+            >
+              Enter Number (Max allowed - 8000)
+            </div>
             <form
               className="input-form"
               onSubmit={[Function]}
@@ -54,7 +59,7 @@ ShallowWrapper {
               <input
                 onChange={[Function]}
                 placeholder="Enter a number"
-                type="text"
+                type="number"
                 value=""
               />
               <input
@@ -108,21 +113,26 @@ ShallowWrapper {
               </option>
             </select>
             <div
-              className="listItem"
+              className="display-numbers"
             >
-              080
-              004956594304956
-            </div>
-            <div
-              className="listItem"
-            >
-              080
-              55567634567654456
+              <div
+                className="listItem"
+              >
+                080
+                004956594304956
+              </div>
+              <div
+                className="listItem"
+              >
+                080
+                55567634567654456
+              </div>
             </div>
             <div
               className="download-button"
             >
               <button
+                className="download-btn"
                 onClick={[Function]}
               >
                 Download Numbers
@@ -167,6 +177,11 @@ ShallowWrapper {
             <div
               className="display-left"
             >
+              <div
+                className="title-text"
+              >
+                Enter Number (Max allowed - 8000)
+              </div>
               <form
                 className="input-form"
                 onSubmit={[Function]}
@@ -174,7 +189,7 @@ ShallowWrapper {
                 <input
                   onChange={[Function]}
                   placeholder="Enter a number"
-                  type="text"
+                  type="number"
                   value=""
                 />
                 <input
@@ -228,21 +243,26 @@ ShallowWrapper {
                 </option>
               </select>
               <div
-                className="listItem"
+                className="display-numbers"
               >
-                080
-                004956594304956
-              </div>
-              <div
-                className="listItem"
-              >
-                080
-                55567634567654456
+                <div
+                  className="listItem"
+                >
+                  080
+                  004956594304956
+                </div>
+                <div
+                  className="listItem"
+                >
+                  080
+                  55567634567654456
+                </div>
               </div>
               <div
                 className="download-button"
               >
                 <button
+                  className="download-btn"
                   onClick={[Function]}
                 >
                   Download Numbers
@@ -260,6 +280,11 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": Array [
+                <div
+                  className="title-text"
+                >
+                  Enter Number (Max allowed - 8000)
+                </div>,
                 <form
                   className="input-form"
                   onSubmit={[Function]}
@@ -267,7 +292,7 @@ ShallowWrapper {
                   <input
                     onChange={[Function]}
                     placeholder="Enter a number"
-                    type="text"
+                    type="number"
                     value=""
                   />
                   <input
@@ -299,11 +324,23 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
+                  "children": "Enter Number (Max allowed - 8000)",
+                  "className": "title-text",
+                },
+                "ref": null,
+                "rendered": "Enter Number (Max allowed - 8000)",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
                   "children": Array [
                     <input
                       onChange={[Function]}
                       placeholder="Enter a number"
-                      type="text"
+                      type="number"
                       value=""
                     />,
                     <input
@@ -329,7 +366,7 @@ ShallowWrapper {
                     "props": Object {
                       "onChange": [Function],
                       "placeholder": "Enter a number",
-                      "type": "text",
+                      "type": "number",
                       "value": "",
                     },
                     "ref": null,
@@ -424,24 +461,27 @@ ShallowWrapper {
                     descending
                   </option>
                 </select>,
-                Array [
+                <div
+                  className="display-numbers"
+                >
                   <div
                     className="listItem"
                   >
                     080
                     004956594304956
-                  </div>,
+                  </div>
                   <div
                     className="listItem"
                   >
                     080
                     55567634567654456
-                  </div>,
-                ],
+                  </div>
+                </div>,
                 <div
                   className="download-button"
                 >
                   <button
+                    className="download-btn"
                     onClick={[Function]}
                   >
                     Download Numbers
@@ -539,37 +579,63 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": "004956594304956",
+                "key": undefined,
                 "nodeType": "host",
                 "props": Object {
                   "children": Array [
-                    "080",
-                    "004956594304956",
+                    <div
+                      className="listItem"
+                    >
+                      080
+                      004956594304956
+                    </div>,
+                    <div
+                      className="listItem"
+                    >
+                      080
+                      55567634567654456
+                    </div>,
                   ],
-                  "className": "listItem",
+                  "className": "display-numbers",
                 },
                 "ref": null,
                 "rendered": Array [
-                  "080",
-                  "004956594304956",
-                ],
-                "type": "div",
-              },
-              Object {
-                "instance": null,
-                "key": "55567634567654456",
-                "nodeType": "host",
-                "props": Object {
-                  "children": Array [
-                    "080",
-                    "55567634567654456",
-                  ],
-                  "className": "listItem",
-                },
-                "ref": null,
-                "rendered": Array [
-                  "080",
-                  "55567634567654456",
+                  Object {
+                    "instance": null,
+                    "key": "004956594304956",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "080",
+                        "004956594304956",
+                      ],
+                      "className": "listItem",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "080",
+                      "004956594304956",
+                    ],
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "55567634567654456",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "080",
+                        "55567634567654456",
+                      ],
+                      "className": "listItem",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "080",
+                      "55567634567654456",
+                    ],
+                    "type": "div",
+                  },
                 ],
                 "type": "div",
               },
@@ -579,6 +645,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": <button
+                    className="download-btn"
                     onClick={[Function]}
                   >
                     Download Numbers
@@ -592,6 +659,7 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": "Download Numbers",
+                    "className": "download-btn",
                     "onClick": [Function],
                   },
                   "ref": null,
@@ -629,6 +697,11 @@ ShallowWrapper {
             <div
               className="display-left"
             >
+              <div
+                className="title-text"
+              >
+                Enter Number (Max allowed - 8000)
+              </div>
               <form
                 className="input-form"
                 onSubmit={[Function]}
@@ -636,7 +709,7 @@ ShallowWrapper {
                 <input
                   onChange={[Function]}
                   placeholder="Enter a number"
-                  type="text"
+                  type="number"
                   value=""
                 />
                 <input
@@ -690,21 +763,26 @@ ShallowWrapper {
                 </option>
               </select>
               <div
-                className="listItem"
+                className="display-numbers"
               >
-                080
-                004956594304956
-              </div>
-              <div
-                className="listItem"
-              >
-                080
-                55567634567654456
+                <div
+                  className="listItem"
+                >
+                  080
+                  004956594304956
+                </div>
+                <div
+                  className="listItem"
+                >
+                  080
+                  55567634567654456
+                </div>
               </div>
               <div
                 className="download-button"
               >
                 <button
+                  className="download-btn"
                   onClick={[Function]}
                 >
                   Download Numbers
@@ -749,6 +827,11 @@ ShallowWrapper {
               <div
                 className="display-left"
               >
+                <div
+                  className="title-text"
+                >
+                  Enter Number (Max allowed - 8000)
+                </div>
                 <form
                   className="input-form"
                   onSubmit={[Function]}
@@ -756,7 +839,7 @@ ShallowWrapper {
                   <input
                     onChange={[Function]}
                     placeholder="Enter a number"
-                    type="text"
+                    type="number"
                     value=""
                   />
                   <input
@@ -810,21 +893,26 @@ ShallowWrapper {
                   </option>
                 </select>
                 <div
-                  className="listItem"
+                  className="display-numbers"
                 >
-                  080
-                  004956594304956
-                </div>
-                <div
-                  className="listItem"
-                >
-                  080
-                  55567634567654456
+                  <div
+                    className="listItem"
+                  >
+                    080
+                    004956594304956
+                  </div>
+                  <div
+                    className="listItem"
+                  >
+                    080
+                    55567634567654456
+                  </div>
                 </div>
                 <div
                   className="download-button"
                 >
                   <button
+                    className="download-btn"
                     onClick={[Function]}
                   >
                     Download Numbers
@@ -842,6 +930,11 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": Array [
+                  <div
+                    className="title-text"
+                  >
+                    Enter Number (Max allowed - 8000)
+                  </div>,
                   <form
                     className="input-form"
                     onSubmit={[Function]}
@@ -849,7 +942,7 @@ ShallowWrapper {
                     <input
                       onChange={[Function]}
                       placeholder="Enter a number"
-                      type="text"
+                      type="number"
                       value=""
                     />
                     <input
@@ -881,11 +974,23 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
+                    "children": "Enter Number (Max allowed - 8000)",
+                    "className": "title-text",
+                  },
+                  "ref": null,
+                  "rendered": "Enter Number (Max allowed - 8000)",
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
                     "children": Array [
                       <input
                         onChange={[Function]}
                         placeholder="Enter a number"
-                        type="text"
+                        type="number"
                         value=""
                       />,
                       <input
@@ -911,7 +1016,7 @@ ShallowWrapper {
                       "props": Object {
                         "onChange": [Function],
                         "placeholder": "Enter a number",
-                        "type": "text",
+                        "type": "number",
                         "value": "",
                       },
                       "ref": null,
@@ -1006,24 +1111,27 @@ ShallowWrapper {
                       descending
                     </option>
                   </select>,
-                  Array [
+                  <div
+                    className="display-numbers"
+                  >
                     <div
                       className="listItem"
                     >
                       080
                       004956594304956
-                    </div>,
+                    </div>
                     <div
                       className="listItem"
                     >
                       080
                       55567634567654456
-                    </div>,
-                  ],
+                    </div>
+                  </div>,
                   <div
                     className="download-button"
                   >
                     <button
+                      className="download-btn"
                       onClick={[Function]}
                     >
                       Download Numbers
@@ -1121,37 +1229,63 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": "004956594304956",
+                  "key": undefined,
                   "nodeType": "host",
                   "props": Object {
                     "children": Array [
-                      "080",
-                      "004956594304956",
+                      <div
+                        className="listItem"
+                      >
+                        080
+                        004956594304956
+                      </div>,
+                      <div
+                        className="listItem"
+                      >
+                        080
+                        55567634567654456
+                      </div>,
                     ],
-                    "className": "listItem",
+                    "className": "display-numbers",
                   },
                   "ref": null,
                   "rendered": Array [
-                    "080",
-                    "004956594304956",
-                  ],
-                  "type": "div",
-                },
-                Object {
-                  "instance": null,
-                  "key": "55567634567654456",
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": Array [
-                      "080",
-                      "55567634567654456",
-                    ],
-                    "className": "listItem",
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    "080",
-                    "55567634567654456",
+                    Object {
+                      "instance": null,
+                      "key": "004956594304956",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "080",
+                          "004956594304956",
+                        ],
+                        "className": "listItem",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "080",
+                        "004956594304956",
+                      ],
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "55567634567654456",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "080",
+                          "55567634567654456",
+                        ],
+                        "className": "listItem",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "080",
+                        "55567634567654456",
+                      ],
+                      "type": "div",
+                    },
                   ],
                   "type": "div",
                 },
@@ -1161,6 +1295,7 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": <button
+                      className="download-btn"
                       onClick={[Function]}
                     >
                       Download Numbers
@@ -1174,6 +1309,1187 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "children": "Download Numbers",
+                      "className": "download-btn",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "rendered": "Download Numbers",
+                    "type": "button",
+                  },
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`Random numbers page should display message when input number is greater than allowed max 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RandomNumbers
+    maximumNumber=""
+    minimumNumber=""
+    randomNumbers={Array []}
+    randomNumbersAsc={Array []}
+    randomNumbersDesc={Array []}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <div
+          className="header"
+        >
+          <h1>
+            RANDOM PHONE NUMBER GENERATOR
+          </h1>
+        </div>,
+        <div
+          className="wrap"
+        >
+          <div
+            className="display-left"
+          >
+            <div
+              className="title-text"
+            >
+              Enter Number (Max allowed - 8000)
+            </div>
+            <form
+              className="input-form"
+              onSubmit={[Function]}
+            >
+              <input
+                onChange={[Function]}
+                placeholder="Enter a number"
+                type="number"
+                value={9000}
+              />
+              <input
+                type="submit"
+                value="Generate Numbers"
+              />
+              <button
+                className="clear-button"
+                onClick={[Function]}
+              >
+                Clear
+              </button>
+            </form>
+            <MinMax
+              title="Min Number"
+              value=""
+            />
+            <MinMax
+              title="Max Number"
+              value=""
+            />
+          </div>
+          <div
+            className="generated-numbers"
+          >
+            <div
+              className="title-text"
+            >
+              Generated Numbers 
+              
+            </div>
+            <select
+              className="sort-type"
+              onChange={[Function]}
+              value=""
+            >
+              <option
+                value="unsorted"
+              >
+                unsorted
+              </option>
+              <option
+                value="asc"
+              >
+                ascending
+              </option>
+              <option
+                value="desc"
+              >
+                descending
+              </option>
+            </select>
+            <div
+              className="display-numbers"
+            >
+              Number exceeds the maximum allowed
+            </div>
+            <div
+              className="download-button"
+            >
+              <button
+                className="download-btn"
+                onClick={[Function]}
+              >
+                Download Numbers
+              </button>
+            </div>
+          </div>
+        </div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <h1>
+            RANDOM PHONE NUMBER GENERATOR
+          </h1>,
+          "className": "header",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "RANDOM PHONE NUMBER GENERATOR",
+          },
+          "ref": null,
+          "rendered": "RANDOM PHONE NUMBER GENERATOR",
+          "type": "h1",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="display-left"
+            >
+              <div
+                className="title-text"
+              >
+                Enter Number (Max allowed - 8000)
+              </div>
+              <form
+                className="input-form"
+                onSubmit={[Function]}
+              >
+                <input
+                  onChange={[Function]}
+                  placeholder="Enter a number"
+                  type="number"
+                  value={9000}
+                />
+                <input
+                  type="submit"
+                  value="Generate Numbers"
+                />
+                <button
+                  className="clear-button"
+                  onClick={[Function]}
+                >
+                  Clear
+                </button>
+              </form>
+              <MinMax
+                title="Min Number"
+                value=""
+              />
+              <MinMax
+                title="Max Number"
+                value=""
+              />
+            </div>,
+            <div
+              className="generated-numbers"
+            >
+              <div
+                className="title-text"
+              >
+                Generated Numbers 
+                
+              </div>
+              <select
+                className="sort-type"
+                onChange={[Function]}
+                value=""
+              >
+                <option
+                  value="unsorted"
+                >
+                  unsorted
+                </option>
+                <option
+                  value="asc"
+                >
+                  ascending
+                </option>
+                <option
+                  value="desc"
+                >
+                  descending
+                </option>
+              </select>
+              <div
+                className="display-numbers"
+              >
+                Number exceeds the maximum allowed
+              </div>
+              <div
+                className="download-button"
+              >
+                <button
+                  className="download-btn"
+                  onClick={[Function]}
+                >
+                  Download Numbers
+                </button>
+              </div>
+            </div>,
+          ],
+          "className": "wrap",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="title-text"
+                >
+                  Enter Number (Max allowed - 8000)
+                </div>,
+                <form
+                  className="input-form"
+                  onSubmit={[Function]}
+                >
+                  <input
+                    onChange={[Function]}
+                    placeholder="Enter a number"
+                    type="number"
+                    value={9000}
+                  />
+                  <input
+                    type="submit"
+                    value="Generate Numbers"
+                  />
+                  <button
+                    className="clear-button"
+                    onClick={[Function]}
+                  >
+                    Clear
+                  </button>
+                </form>,
+                <MinMax
+                  title="Min Number"
+                  value=""
+                />,
+                <MinMax
+                  title="Max Number"
+                  value=""
+                />,
+              ],
+              "className": "display-left",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Enter Number (Max allowed - 8000)",
+                  "className": "title-text",
+                },
+                "ref": null,
+                "rendered": "Enter Number (Max allowed - 8000)",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <input
+                      onChange={[Function]}
+                      placeholder="Enter a number"
+                      type="number"
+                      value={9000}
+                    />,
+                    <input
+                      type="submit"
+                      value="Generate Numbers"
+                    />,
+                    <button
+                      className="clear-button"
+                      onClick={[Function]}
+                    >
+                      Clear
+                    </button>,
+                  ],
+                  "className": "input-form",
+                  "onSubmit": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "onChange": [Function],
+                      "placeholder": "Enter a number",
+                      "type": "number",
+                      "value": 9000,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "type": "submit",
+                      "value": "Generate Numbers",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Clear",
+                      "className": "clear-button",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "rendered": "Clear",
+                    "type": "button",
+                  },
+                ],
+                "type": "form",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "title": "Min Number",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "title": "Max Number",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="title-text"
+                >
+                  Generated Numbers 
+                  
+                </div>,
+                <select
+                  className="sort-type"
+                  onChange={[Function]}
+                  value=""
+                >
+                  <option
+                    value="unsorted"
+                  >
+                    unsorted
+                  </option>
+                  <option
+                    value="asc"
+                  >
+                    ascending
+                  </option>
+                  <option
+                    value="desc"
+                  >
+                    descending
+                  </option>
+                </select>,
+                <div
+                  className="display-numbers"
+                >
+                  Number exceeds the maximum allowed
+                </div>,
+                <div
+                  className="download-button"
+                >
+                  <button
+                    className="download-btn"
+                    onClick={[Function]}
+                  >
+                    Download Numbers
+                  </button>
+                </div>,
+              ],
+              "className": "generated-numbers",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "Generated Numbers ",
+                    "",
+                  ],
+                  "className": "title-text",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Generated Numbers ",
+                  "",
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <option
+                      value="unsorted"
+                    >
+                      unsorted
+                    </option>,
+                    <option
+                      value="asc"
+                    >
+                      ascending
+                    </option>,
+                    <option
+                      value="desc"
+                    >
+                      descending
+                    </option>,
+                  ],
+                  "className": "sort-type",
+                  "onChange": [Function],
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "unsorted",
+                      "value": "unsorted",
+                    },
+                    "ref": null,
+                    "rendered": "unsorted",
+                    "type": "option",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "ascending",
+                      "value": "asc",
+                    },
+                    "ref": null,
+                    "rendered": "ascending",
+                    "type": "option",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "descending",
+                      "value": "desc",
+                    },
+                    "ref": null,
+                    "rendered": "descending",
+                    "type": "option",
+                  },
+                ],
+                "type": "select",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Number exceeds the maximum allowed",
+                  "className": "display-numbers",
+                },
+                "ref": null,
+                "rendered": "Number exceeds the maximum allowed",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <button
+                    className="download-btn"
+                    onClick={[Function]}
+                  >
+                    Download Numbers
+                  </button>,
+                  "className": "download-button",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Download Numbers",
+                    "className": "download-btn",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": "Download Numbers",
+                  "type": "button",
+                },
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <div
+            className="header"
+          >
+            <h1>
+              RANDOM PHONE NUMBER GENERATOR
+            </h1>
+          </div>,
+          <div
+            className="wrap"
+          >
+            <div
+              className="display-left"
+            >
+              <div
+                className="title-text"
+              >
+                Enter Number (Max allowed - 8000)
+              </div>
+              <form
+                className="input-form"
+                onSubmit={[Function]}
+              >
+                <input
+                  onChange={[Function]}
+                  placeholder="Enter a number"
+                  type="number"
+                  value={9000}
+                />
+                <input
+                  type="submit"
+                  value="Generate Numbers"
+                />
+                <button
+                  className="clear-button"
+                  onClick={[Function]}
+                >
+                  Clear
+                </button>
+              </form>
+              <MinMax
+                title="Min Number"
+                value=""
+              />
+              <MinMax
+                title="Max Number"
+                value=""
+              />
+            </div>
+            <div
+              className="generated-numbers"
+            >
+              <div
+                className="title-text"
+              >
+                Generated Numbers 
+                
+              </div>
+              <select
+                className="sort-type"
+                onChange={[Function]}
+                value=""
+              >
+                <option
+                  value="unsorted"
+                >
+                  unsorted
+                </option>
+                <option
+                  value="asc"
+                >
+                  ascending
+                </option>
+                <option
+                  value="desc"
+                >
+                  descending
+                </option>
+              </select>
+              <div
+                className="display-numbers"
+              >
+                Number exceeds the maximum allowed
+              </div>
+              <div
+                className="download-button"
+              >
+                <button
+                  className="download-btn"
+                  onClick={[Function]}
+                >
+                  Download Numbers
+                </button>
+              </div>
+            </div>
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <h1>
+              RANDOM PHONE NUMBER GENERATOR
+            </h1>,
+            "className": "header",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "RANDOM PHONE NUMBER GENERATOR",
+            },
+            "ref": null,
+            "rendered": "RANDOM PHONE NUMBER GENERATOR",
+            "type": "h1",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="display-left"
+              >
+                <div
+                  className="title-text"
+                >
+                  Enter Number (Max allowed - 8000)
+                </div>
+                <form
+                  className="input-form"
+                  onSubmit={[Function]}
+                >
+                  <input
+                    onChange={[Function]}
+                    placeholder="Enter a number"
+                    type="number"
+                    value={9000}
+                  />
+                  <input
+                    type="submit"
+                    value="Generate Numbers"
+                  />
+                  <button
+                    className="clear-button"
+                    onClick={[Function]}
+                  >
+                    Clear
+                  </button>
+                </form>
+                <MinMax
+                  title="Min Number"
+                  value=""
+                />
+                <MinMax
+                  title="Max Number"
+                  value=""
+                />
+              </div>,
+              <div
+                className="generated-numbers"
+              >
+                <div
+                  className="title-text"
+                >
+                  Generated Numbers 
+                  
+                </div>
+                <select
+                  className="sort-type"
+                  onChange={[Function]}
+                  value=""
+                >
+                  <option
+                    value="unsorted"
+                  >
+                    unsorted
+                  </option>
+                  <option
+                    value="asc"
+                  >
+                    ascending
+                  </option>
+                  <option
+                    value="desc"
+                  >
+                    descending
+                  </option>
+                </select>
+                <div
+                  className="display-numbers"
+                >
+                  Number exceeds the maximum allowed
+                </div>
+                <div
+                  className="download-button"
+                >
+                  <button
+                    className="download-btn"
+                    onClick={[Function]}
+                  >
+                    Download Numbers
+                  </button>
+                </div>
+              </div>,
+            ],
+            "className": "wrap",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="title-text"
+                  >
+                    Enter Number (Max allowed - 8000)
+                  </div>,
+                  <form
+                    className="input-form"
+                    onSubmit={[Function]}
+                  >
+                    <input
+                      onChange={[Function]}
+                      placeholder="Enter a number"
+                      type="number"
+                      value={9000}
+                    />
+                    <input
+                      type="submit"
+                      value="Generate Numbers"
+                    />
+                    <button
+                      className="clear-button"
+                      onClick={[Function]}
+                    >
+                      Clear
+                    </button>
+                  </form>,
+                  <MinMax
+                    title="Min Number"
+                    value=""
+                  />,
+                  <MinMax
+                    title="Max Number"
+                    value=""
+                  />,
+                ],
+                "className": "display-left",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Enter Number (Max allowed - 8000)",
+                    "className": "title-text",
+                  },
+                  "ref": null,
+                  "rendered": "Enter Number (Max allowed - 8000)",
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <input
+                        onChange={[Function]}
+                        placeholder="Enter a number"
+                        type="number"
+                        value={9000}
+                      />,
+                      <input
+                        type="submit"
+                        value="Generate Numbers"
+                      />,
+                      <button
+                        className="clear-button"
+                        onClick={[Function]}
+                      >
+                        Clear
+                      </button>,
+                    ],
+                    "className": "input-form",
+                    "onSubmit": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "onChange": [Function],
+                        "placeholder": "Enter a number",
+                        "type": "number",
+                        "value": 9000,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "type": "submit",
+                        "value": "Generate Numbers",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Clear",
+                        "className": "clear-button",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "rendered": "Clear",
+                      "type": "button",
+                    },
+                  ],
+                  "type": "form",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "title": "Min Number",
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "title": "Max Number",
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="title-text"
+                  >
+                    Generated Numbers 
+                    
+                  </div>,
+                  <select
+                    className="sort-type"
+                    onChange={[Function]}
+                    value=""
+                  >
+                    <option
+                      value="unsorted"
+                    >
+                      unsorted
+                    </option>
+                    <option
+                      value="asc"
+                    >
+                      ascending
+                    </option>
+                    <option
+                      value="desc"
+                    >
+                      descending
+                    </option>
+                  </select>,
+                  <div
+                    className="display-numbers"
+                  >
+                    Number exceeds the maximum allowed
+                  </div>,
+                  <div
+                    className="download-button"
+                  >
+                    <button
+                      className="download-btn"
+                      onClick={[Function]}
+                    >
+                      Download Numbers
+                    </button>
+                  </div>,
+                ],
+                "className": "generated-numbers",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "Generated Numbers ",
+                      "",
+                    ],
+                    "className": "title-text",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Generated Numbers ",
+                    "",
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <option
+                        value="unsorted"
+                      >
+                        unsorted
+                      </option>,
+                      <option
+                        value="asc"
+                      >
+                        ascending
+                      </option>,
+                      <option
+                        value="desc"
+                      >
+                        descending
+                      </option>,
+                    ],
+                    "className": "sort-type",
+                    "onChange": [Function],
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "unsorted",
+                        "value": "unsorted",
+                      },
+                      "ref": null,
+                      "rendered": "unsorted",
+                      "type": "option",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "ascending",
+                        "value": "asc",
+                      },
+                      "ref": null,
+                      "rendered": "ascending",
+                      "type": "option",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "descending",
+                        "value": "desc",
+                      },
+                      "ref": null,
+                      "rendered": "descending",
+                      "type": "option",
+                    },
+                  ],
+                  "type": "select",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Number exceeds the maximum allowed",
+                    "className": "display-numbers",
+                  },
+                  "ref": null,
+                  "rendered": "Number exceeds the maximum allowed",
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <button
+                      className="download-btn"
+                      onClick={[Function]}
+                    >
+                      Download Numbers
+                    </button>,
+                    "className": "download-button",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Download Numbers",
+                      "className": "download-btn",
                       "onClick": [Function],
                     },
                     "ref": null,
@@ -1257,6 +2573,11 @@ ShallowWrapper {
           <div
             className="display-left"
           >
+            <div
+              className="title-text"
+            >
+              Enter Number (Max allowed - 8000)
+            </div>
             <form
               className="input-form"
               onSubmit={[Function]}
@@ -1264,7 +2585,7 @@ ShallowWrapper {
               <input
                 onChange={[Function]}
                 placeholder="Enter a number"
-                type="text"
+                type="number"
                 value=""
               />
               <input
@@ -1318,9 +2639,13 @@ ShallowWrapper {
               </option>
             </select>
             <div
+              className="display-numbers"
+            />
+            <div
               className="download-button"
             >
               <button
+                className="download-btn"
                 onClick={[Function]}
               >
                 Download Numbers
@@ -1365,6 +2690,11 @@ ShallowWrapper {
             <div
               className="display-left"
             >
+              <div
+                className="title-text"
+              >
+                Enter Number (Max allowed - 8000)
+              </div>
               <form
                 className="input-form"
                 onSubmit={[Function]}
@@ -1372,7 +2702,7 @@ ShallowWrapper {
                 <input
                   onChange={[Function]}
                   placeholder="Enter a number"
-                  type="text"
+                  type="number"
                   value=""
                 />
                 <input
@@ -1426,9 +2756,13 @@ ShallowWrapper {
                 </option>
               </select>
               <div
+                className="display-numbers"
+              />
+              <div
                 className="download-button"
               >
                 <button
+                  className="download-btn"
                   onClick={[Function]}
                 >
                   Download Numbers
@@ -1446,6 +2780,11 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": Array [
+                <div
+                  className="title-text"
+                >
+                  Enter Number (Max allowed - 8000)
+                </div>,
                 <form
                   className="input-form"
                   onSubmit={[Function]}
@@ -1453,7 +2792,7 @@ ShallowWrapper {
                   <input
                     onChange={[Function]}
                     placeholder="Enter a number"
-                    type="text"
+                    type="number"
                     value=""
                   />
                   <input
@@ -1485,11 +2824,23 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
+                  "children": "Enter Number (Max allowed - 8000)",
+                  "className": "title-text",
+                },
+                "ref": null,
+                "rendered": "Enter Number (Max allowed - 8000)",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
                   "children": Array [
                     <input
                       onChange={[Function]}
                       placeholder="Enter a number"
-                      type="text"
+                      type="number"
                       value=""
                     />,
                     <input
@@ -1515,7 +2866,7 @@ ShallowWrapper {
                     "props": Object {
                       "onChange": [Function],
                       "placeholder": "Enter a number",
-                      "type": "text",
+                      "type": "number",
                       "value": "",
                     },
                     "ref": null,
@@ -1610,11 +2961,14 @@ ShallowWrapper {
                     descending
                   </option>
                 </select>,
-                Array [],
+                <div
+                  className="display-numbers"
+                />,
                 <div
                   className="download-button"
                 >
                   <button
+                    className="download-btn"
                     onClick={[Function]}
                   >
                     Download Numbers
@@ -1715,7 +3069,20 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
+                  "children": Array [],
+                  "className": "display-numbers",
+                },
+                "ref": null,
+                "rendered": Array [],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
                   "children": <button
+                    className="download-btn"
                     onClick={[Function]}
                   >
                     Download Numbers
@@ -1729,6 +3096,7 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": "Download Numbers",
+                    "className": "download-btn",
                     "onClick": [Function],
                   },
                   "ref": null,
@@ -1766,6 +3134,11 @@ ShallowWrapper {
             <div
               className="display-left"
             >
+              <div
+                className="title-text"
+              >
+                Enter Number (Max allowed - 8000)
+              </div>
               <form
                 className="input-form"
                 onSubmit={[Function]}
@@ -1773,7 +3146,7 @@ ShallowWrapper {
                 <input
                   onChange={[Function]}
                   placeholder="Enter a number"
-                  type="text"
+                  type="number"
                   value=""
                 />
                 <input
@@ -1827,9 +3200,13 @@ ShallowWrapper {
                 </option>
               </select>
               <div
+                className="display-numbers"
+              />
+              <div
                 className="download-button"
               >
                 <button
+                  className="download-btn"
                   onClick={[Function]}
                 >
                   Download Numbers
@@ -1874,6 +3251,11 @@ ShallowWrapper {
               <div
                 className="display-left"
               >
+                <div
+                  className="title-text"
+                >
+                  Enter Number (Max allowed - 8000)
+                </div>
                 <form
                   className="input-form"
                   onSubmit={[Function]}
@@ -1881,7 +3263,7 @@ ShallowWrapper {
                   <input
                     onChange={[Function]}
                     placeholder="Enter a number"
-                    type="text"
+                    type="number"
                     value=""
                   />
                   <input
@@ -1935,9 +3317,13 @@ ShallowWrapper {
                   </option>
                 </select>
                 <div
+                  className="display-numbers"
+                />
+                <div
                   className="download-button"
                 >
                   <button
+                    className="download-btn"
                     onClick={[Function]}
                   >
                     Download Numbers
@@ -1955,6 +3341,11 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": Array [
+                  <div
+                    className="title-text"
+                  >
+                    Enter Number (Max allowed - 8000)
+                  </div>,
                   <form
                     className="input-form"
                     onSubmit={[Function]}
@@ -1962,7 +3353,7 @@ ShallowWrapper {
                     <input
                       onChange={[Function]}
                       placeholder="Enter a number"
-                      type="text"
+                      type="number"
                       value=""
                     />
                     <input
@@ -1994,11 +3385,23 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
+                    "children": "Enter Number (Max allowed - 8000)",
+                    "className": "title-text",
+                  },
+                  "ref": null,
+                  "rendered": "Enter Number (Max allowed - 8000)",
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
                     "children": Array [
                       <input
                         onChange={[Function]}
                         placeholder="Enter a number"
-                        type="text"
+                        type="number"
                         value=""
                       />,
                       <input
@@ -2024,7 +3427,7 @@ ShallowWrapper {
                       "props": Object {
                         "onChange": [Function],
                         "placeholder": "Enter a number",
-                        "type": "text",
+                        "type": "number",
                         "value": "",
                       },
                       "ref": null,
@@ -2119,11 +3522,14 @@ ShallowWrapper {
                       descending
                     </option>
                   </select>,
-                  Array [],
+                  <div
+                    className="display-numbers"
+                  />,
                   <div
                     className="download-button"
                   >
                     <button
+                      className="download-btn"
                       onClick={[Function]}
                     >
                       Download Numbers
@@ -2224,7 +3630,20 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
+                    "children": Array [],
+                    "className": "display-numbers",
+                  },
+                  "ref": null,
+                  "rendered": Array [],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
                     "children": <button
+                      className="download-btn"
                       onClick={[Function]}
                     >
                       Download Numbers
@@ -2238,6 +3657,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "children": "Download Numbers",
+                      "className": "download-btn",
                       "onClick": [Function],
                     },
                     "ref": null,
@@ -2348,6 +3768,11 @@ ShallowWrapper {
           <div
             className="display-left"
           >
+            <div
+              className="title-text"
+            >
+              Enter Number (Max allowed - 8000)
+            </div>
             <form
               className="input-form"
               onSubmit={[Function]}
@@ -2355,7 +3780,7 @@ ShallowWrapper {
               <input
                 onChange={[Function]}
                 placeholder="Enter a number"
-                type="text"
+                type="number"
                 value=""
               />
               <input
@@ -2385,7 +3810,7 @@ ShallowWrapper {
               className="title-text"
             >
               Generated Numbers 
-              ()
+              
             </div>
             <select
               className="sort-type"
@@ -2409,21 +3834,26 @@ ShallowWrapper {
               </option>
             </select>
             <div
-              className="listItem"
+              className="display-numbers"
             >
-              080
-              004956594304956
-            </div>
-            <div
-              className="listItem"
-            >
-              080
-              55567634567654456
+              <div
+                className="listItem"
+              >
+                080
+                004956594304956
+              </div>
+              <div
+                className="listItem"
+              >
+                080
+                55567634567654456
+              </div>
             </div>
             <div
               className="download-button"
             >
               <button
+                className="download-btn"
                 onClick={[Function]}
               >
                 Download Numbers
@@ -2468,6 +3898,11 @@ ShallowWrapper {
             <div
               className="display-left"
             >
+              <div
+                className="title-text"
+              >
+                Enter Number (Max allowed - 8000)
+              </div>
               <form
                 className="input-form"
                 onSubmit={[Function]}
@@ -2475,7 +3910,7 @@ ShallowWrapper {
                 <input
                   onChange={[Function]}
                   placeholder="Enter a number"
-                  type="text"
+                  type="number"
                   value=""
                 />
                 <input
@@ -2505,7 +3940,7 @@ ShallowWrapper {
                 className="title-text"
               >
                 Generated Numbers 
-                ()
+                
               </div>
               <select
                 className="sort-type"
@@ -2529,21 +3964,26 @@ ShallowWrapper {
                 </option>
               </select>
               <div
-                className="listItem"
+                className="display-numbers"
               >
-                080
-                004956594304956
-              </div>
-              <div
-                className="listItem"
-              >
-                080
-                55567634567654456
+                <div
+                  className="listItem"
+                >
+                  080
+                  004956594304956
+                </div>
+                <div
+                  className="listItem"
+                >
+                  080
+                  55567634567654456
+                </div>
               </div>
               <div
                 className="download-button"
               >
                 <button
+                  className="download-btn"
                   onClick={[Function]}
                 >
                   Download Numbers
@@ -2561,6 +4001,11 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": Array [
+                <div
+                  className="title-text"
+                >
+                  Enter Number (Max allowed - 8000)
+                </div>,
                 <form
                   className="input-form"
                   onSubmit={[Function]}
@@ -2568,7 +4013,7 @@ ShallowWrapper {
                   <input
                     onChange={[Function]}
                     placeholder="Enter a number"
-                    type="text"
+                    type="number"
                     value=""
                   />
                   <input
@@ -2600,11 +4045,23 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
+                  "children": "Enter Number (Max allowed - 8000)",
+                  "className": "title-text",
+                },
+                "ref": null,
+                "rendered": "Enter Number (Max allowed - 8000)",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
                   "children": Array [
                     <input
                       onChange={[Function]}
                       placeholder="Enter a number"
-                      type="text"
+                      type="number"
                       value=""
                     />,
                     <input
@@ -2630,7 +4087,7 @@ ShallowWrapper {
                     "props": Object {
                       "onChange": [Function],
                       "placeholder": "Enter a number",
-                      "type": "text",
+                      "type": "number",
                       "value": "",
                     },
                     "ref": null,
@@ -2702,7 +4159,7 @@ ShallowWrapper {
                   className="title-text"
                 >
                   Generated Numbers 
-                  ()
+                  
                 </div>,
                 <select
                   className="sort-type"
@@ -2725,24 +4182,27 @@ ShallowWrapper {
                     descending
                   </option>
                 </select>,
-                Array [
+                <div
+                  className="display-numbers"
+                >
                   <div
                     className="listItem"
                   >
                     080
                     004956594304956
-                  </div>,
+                  </div>
                   <div
                     className="listItem"
                   >
                     080
                     55567634567654456
-                  </div>,
-                ],
+                  </div>
+                </div>,
                 <div
                   className="download-button"
                 >
                   <button
+                    className="download-btn"
                     onClick={[Function]}
                   >
                     Download Numbers
@@ -2760,14 +4220,14 @@ ShallowWrapper {
                 "props": Object {
                   "children": Array [
                     "Generated Numbers ",
-                    "()",
+                    "",
                   ],
                   "className": "title-text",
                 },
                 "ref": null,
                 "rendered": Array [
                   "Generated Numbers ",
-                  "()",
+                  "",
                 ],
                 "type": "div",
               },
@@ -2840,37 +4300,63 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": "004956594304956",
+                "key": undefined,
                 "nodeType": "host",
                 "props": Object {
                   "children": Array [
-                    "080",
-                    "004956594304956",
+                    <div
+                      className="listItem"
+                    >
+                      080
+                      004956594304956
+                    </div>,
+                    <div
+                      className="listItem"
+                    >
+                      080
+                      55567634567654456
+                    </div>,
                   ],
-                  "className": "listItem",
+                  "className": "display-numbers",
                 },
                 "ref": null,
                 "rendered": Array [
-                  "080",
-                  "004956594304956",
-                ],
-                "type": "div",
-              },
-              Object {
-                "instance": null,
-                "key": "55567634567654456",
-                "nodeType": "host",
-                "props": Object {
-                  "children": Array [
-                    "080",
-                    "55567634567654456",
-                  ],
-                  "className": "listItem",
-                },
-                "ref": null,
-                "rendered": Array [
-                  "080",
-                  "55567634567654456",
+                  Object {
+                    "instance": null,
+                    "key": "004956594304956",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "080",
+                        "004956594304956",
+                      ],
+                      "className": "listItem",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "080",
+                      "004956594304956",
+                    ],
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "55567634567654456",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "080",
+                        "55567634567654456",
+                      ],
+                      "className": "listItem",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "080",
+                      "55567634567654456",
+                    ],
+                    "type": "div",
+                  },
                 ],
                 "type": "div",
               },
@@ -2880,6 +4366,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": <button
+                    className="download-btn"
                     onClick={[Function]}
                   >
                     Download Numbers
@@ -2893,6 +4380,7 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": "Download Numbers",
+                    "className": "download-btn",
                     "onClick": [Function],
                   },
                   "ref": null,
@@ -2930,6 +4418,11 @@ ShallowWrapper {
             <div
               className="display-left"
             >
+              <div
+                className="title-text"
+              >
+                Enter Number (Max allowed - 8000)
+              </div>
               <form
                 className="input-form"
                 onSubmit={[Function]}
@@ -2937,7 +4430,7 @@ ShallowWrapper {
                 <input
                   onChange={[Function]}
                   placeholder="Enter a number"
-                  type="text"
+                  type="number"
                   value=""
                 />
                 <input
@@ -2967,7 +4460,7 @@ ShallowWrapper {
                 className="title-text"
               >
                 Generated Numbers 
-                ()
+                
               </div>
               <select
                 className="sort-type"
@@ -2991,21 +4484,26 @@ ShallowWrapper {
                 </option>
               </select>
               <div
-                className="listItem"
+                className="display-numbers"
               >
-                080
-                004956594304956
-              </div>
-              <div
-                className="listItem"
-              >
-                080
-                55567634567654456
+                <div
+                  className="listItem"
+                >
+                  080
+                  004956594304956
+                </div>
+                <div
+                  className="listItem"
+                >
+                  080
+                  55567634567654456
+                </div>
               </div>
               <div
                 className="download-button"
               >
                 <button
+                  className="download-btn"
                   onClick={[Function]}
                 >
                   Download Numbers
@@ -3050,6 +4548,11 @@ ShallowWrapper {
               <div
                 className="display-left"
               >
+                <div
+                  className="title-text"
+                >
+                  Enter Number (Max allowed - 8000)
+                </div>
                 <form
                   className="input-form"
                   onSubmit={[Function]}
@@ -3057,7 +4560,7 @@ ShallowWrapper {
                   <input
                     onChange={[Function]}
                     placeholder="Enter a number"
-                    type="text"
+                    type="number"
                     value=""
                   />
                   <input
@@ -3087,7 +4590,7 @@ ShallowWrapper {
                   className="title-text"
                 >
                   Generated Numbers 
-                  ()
+                  
                 </div>
                 <select
                   className="sort-type"
@@ -3111,21 +4614,26 @@ ShallowWrapper {
                   </option>
                 </select>
                 <div
-                  className="listItem"
+                  className="display-numbers"
                 >
-                  080
-                  004956594304956
-                </div>
-                <div
-                  className="listItem"
-                >
-                  080
-                  55567634567654456
+                  <div
+                    className="listItem"
+                  >
+                    080
+                    004956594304956
+                  </div>
+                  <div
+                    className="listItem"
+                  >
+                    080
+                    55567634567654456
+                  </div>
                 </div>
                 <div
                   className="download-button"
                 >
                   <button
+                    className="download-btn"
                     onClick={[Function]}
                   >
                     Download Numbers
@@ -3143,6 +4651,11 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": Array [
+                  <div
+                    className="title-text"
+                  >
+                    Enter Number (Max allowed - 8000)
+                  </div>,
                   <form
                     className="input-form"
                     onSubmit={[Function]}
@@ -3150,7 +4663,7 @@ ShallowWrapper {
                     <input
                       onChange={[Function]}
                       placeholder="Enter a number"
-                      type="text"
+                      type="number"
                       value=""
                     />
                     <input
@@ -3182,11 +4695,23 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
+                    "children": "Enter Number (Max allowed - 8000)",
+                    "className": "title-text",
+                  },
+                  "ref": null,
+                  "rendered": "Enter Number (Max allowed - 8000)",
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
                     "children": Array [
                       <input
                         onChange={[Function]}
                         placeholder="Enter a number"
-                        type="text"
+                        type="number"
                         value=""
                       />,
                       <input
@@ -3212,7 +4737,7 @@ ShallowWrapper {
                       "props": Object {
                         "onChange": [Function],
                         "placeholder": "Enter a number",
-                        "type": "text",
+                        "type": "number",
                         "value": "",
                       },
                       "ref": null,
@@ -3284,7 +4809,7 @@ ShallowWrapper {
                     className="title-text"
                   >
                     Generated Numbers 
-                    ()
+                    
                   </div>,
                   <select
                     className="sort-type"
@@ -3307,24 +4832,27 @@ ShallowWrapper {
                       descending
                     </option>
                   </select>,
-                  Array [
+                  <div
+                    className="display-numbers"
+                  >
                     <div
                       className="listItem"
                     >
                       080
                       004956594304956
-                    </div>,
+                    </div>
                     <div
                       className="listItem"
                     >
                       080
                       55567634567654456
-                    </div>,
-                  ],
+                    </div>
+                  </div>,
                   <div
                     className="download-button"
                   >
                     <button
+                      className="download-btn"
                       onClick={[Function]}
                     >
                       Download Numbers
@@ -3342,14 +4870,14 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       "Generated Numbers ",
-                      "()",
+                      "",
                     ],
                     "className": "title-text",
                   },
                   "ref": null,
                   "rendered": Array [
                     "Generated Numbers ",
-                    "()",
+                    "",
                   ],
                   "type": "div",
                 },
@@ -3422,37 +4950,63 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": "004956594304956",
+                  "key": undefined,
                   "nodeType": "host",
                   "props": Object {
                     "children": Array [
-                      "080",
-                      "004956594304956",
+                      <div
+                        className="listItem"
+                      >
+                        080
+                        004956594304956
+                      </div>,
+                      <div
+                        className="listItem"
+                      >
+                        080
+                        55567634567654456
+                      </div>,
                     ],
-                    "className": "listItem",
+                    "className": "display-numbers",
                   },
                   "ref": null,
                   "rendered": Array [
-                    "080",
-                    "004956594304956",
-                  ],
-                  "type": "div",
-                },
-                Object {
-                  "instance": null,
-                  "key": "55567634567654456",
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": Array [
-                      "080",
-                      "55567634567654456",
-                    ],
-                    "className": "listItem",
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    "080",
-                    "55567634567654456",
+                    Object {
+                      "instance": null,
+                      "key": "004956594304956",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "080",
+                          "004956594304956",
+                        ],
+                        "className": "listItem",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "080",
+                        "004956594304956",
+                      ],
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "55567634567654456",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "080",
+                          "55567634567654456",
+                        ],
+                        "className": "listItem",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "080",
+                        "55567634567654456",
+                      ],
+                      "type": "div",
+                    },
                   ],
                   "type": "div",
                 },
@@ -3462,6 +5016,7 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": <button
+                      className="download-btn"
                       onClick={[Function]}
                     >
                       Download Numbers
@@ -3475,6 +5030,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "children": "Download Numbers",
+                      "className": "download-btn",
                       "onClick": [Function],
                     },
                     "ref": null,
@@ -3585,6 +5141,11 @@ ShallowWrapper {
           <div
             className="display-left"
           >
+            <div
+              className="title-text"
+            >
+              Enter Number (Max allowed - 8000)
+            </div>
             <form
               className="input-form"
               onSubmit={[Function]}
@@ -3592,7 +5153,7 @@ ShallowWrapper {
               <input
                 onChange={[Function]}
                 placeholder="Enter a number"
-                type="text"
+                type="number"
                 value=""
               />
               <input
@@ -3622,7 +5183,7 @@ ShallowWrapper {
               className="title-text"
             >
               Generated Numbers 
-              ()
+              
             </div>
             <select
               className="sort-type"
@@ -3646,21 +5207,26 @@ ShallowWrapper {
               </option>
             </select>
             <div
-              className="listItem"
+              className="display-numbers"
             >
-              080
-              004956594304956
-            </div>
-            <div
-              className="listItem"
-            >
-              080
-              55567634567654456
+              <div
+                className="listItem"
+              >
+                080
+                004956594304956
+              </div>
+              <div
+                className="listItem"
+              >
+                080
+                55567634567654456
+              </div>
             </div>
             <div
               className="download-button"
             >
               <button
+                className="download-btn"
                 onClick={[Function]}
               >
                 Download Numbers
@@ -3705,6 +5271,11 @@ ShallowWrapper {
             <div
               className="display-left"
             >
+              <div
+                className="title-text"
+              >
+                Enter Number (Max allowed - 8000)
+              </div>
               <form
                 className="input-form"
                 onSubmit={[Function]}
@@ -3712,7 +5283,7 @@ ShallowWrapper {
                 <input
                   onChange={[Function]}
                   placeholder="Enter a number"
-                  type="text"
+                  type="number"
                   value=""
                 />
                 <input
@@ -3742,7 +5313,7 @@ ShallowWrapper {
                 className="title-text"
               >
                 Generated Numbers 
-                ()
+                
               </div>
               <select
                 className="sort-type"
@@ -3766,21 +5337,26 @@ ShallowWrapper {
                 </option>
               </select>
               <div
-                className="listItem"
+                className="display-numbers"
               >
-                080
-                004956594304956
-              </div>
-              <div
-                className="listItem"
-              >
-                080
-                55567634567654456
+                <div
+                  className="listItem"
+                >
+                  080
+                  004956594304956
+                </div>
+                <div
+                  className="listItem"
+                >
+                  080
+                  55567634567654456
+                </div>
               </div>
               <div
                 className="download-button"
               >
                 <button
+                  className="download-btn"
                   onClick={[Function]}
                 >
                   Download Numbers
@@ -3798,6 +5374,11 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": Array [
+                <div
+                  className="title-text"
+                >
+                  Enter Number (Max allowed - 8000)
+                </div>,
                 <form
                   className="input-form"
                   onSubmit={[Function]}
@@ -3805,7 +5386,7 @@ ShallowWrapper {
                   <input
                     onChange={[Function]}
                     placeholder="Enter a number"
-                    type="text"
+                    type="number"
                     value=""
                   />
                   <input
@@ -3837,11 +5418,23 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
+                  "children": "Enter Number (Max allowed - 8000)",
+                  "className": "title-text",
+                },
+                "ref": null,
+                "rendered": "Enter Number (Max allowed - 8000)",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
                   "children": Array [
                     <input
                       onChange={[Function]}
                       placeholder="Enter a number"
-                      type="text"
+                      type="number"
                       value=""
                     />,
                     <input
@@ -3867,7 +5460,7 @@ ShallowWrapper {
                     "props": Object {
                       "onChange": [Function],
                       "placeholder": "Enter a number",
-                      "type": "text",
+                      "type": "number",
                       "value": "",
                     },
                     "ref": null,
@@ -3939,7 +5532,7 @@ ShallowWrapper {
                   className="title-text"
                 >
                   Generated Numbers 
-                  ()
+                  
                 </div>,
                 <select
                   className="sort-type"
@@ -3962,24 +5555,27 @@ ShallowWrapper {
                     descending
                   </option>
                 </select>,
-                Array [
+                <div
+                  className="display-numbers"
+                >
                   <div
                     className="listItem"
                   >
                     080
                     004956594304956
-                  </div>,
+                  </div>
                   <div
                     className="listItem"
                   >
                     080
                     55567634567654456
-                  </div>,
-                ],
+                  </div>
+                </div>,
                 <div
                   className="download-button"
                 >
                   <button
+                    className="download-btn"
                     onClick={[Function]}
                   >
                     Download Numbers
@@ -3997,14 +5593,14 @@ ShallowWrapper {
                 "props": Object {
                   "children": Array [
                     "Generated Numbers ",
-                    "()",
+                    "",
                   ],
                   "className": "title-text",
                 },
                 "ref": null,
                 "rendered": Array [
                   "Generated Numbers ",
-                  "()",
+                  "",
                 ],
                 "type": "div",
               },
@@ -4077,37 +5673,63 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": "004956594304956",
+                "key": undefined,
                 "nodeType": "host",
                 "props": Object {
                   "children": Array [
-                    "080",
-                    "004956594304956",
+                    <div
+                      className="listItem"
+                    >
+                      080
+                      004956594304956
+                    </div>,
+                    <div
+                      className="listItem"
+                    >
+                      080
+                      55567634567654456
+                    </div>,
                   ],
-                  "className": "listItem",
+                  "className": "display-numbers",
                 },
                 "ref": null,
                 "rendered": Array [
-                  "080",
-                  "004956594304956",
-                ],
-                "type": "div",
-              },
-              Object {
-                "instance": null,
-                "key": "55567634567654456",
-                "nodeType": "host",
-                "props": Object {
-                  "children": Array [
-                    "080",
-                    "55567634567654456",
-                  ],
-                  "className": "listItem",
-                },
-                "ref": null,
-                "rendered": Array [
-                  "080",
-                  "55567634567654456",
+                  Object {
+                    "instance": null,
+                    "key": "004956594304956",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "080",
+                        "004956594304956",
+                      ],
+                      "className": "listItem",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "080",
+                      "004956594304956",
+                    ],
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "55567634567654456",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "080",
+                        "55567634567654456",
+                      ],
+                      "className": "listItem",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "080",
+                      "55567634567654456",
+                    ],
+                    "type": "div",
+                  },
                 ],
                 "type": "div",
               },
@@ -4117,6 +5739,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": <button
+                    className="download-btn"
                     onClick={[Function]}
                   >
                     Download Numbers
@@ -4130,6 +5753,7 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": "Download Numbers",
+                    "className": "download-btn",
                     "onClick": [Function],
                   },
                   "ref": null,
@@ -4167,6 +5791,11 @@ ShallowWrapper {
             <div
               className="display-left"
             >
+              <div
+                className="title-text"
+              >
+                Enter Number (Max allowed - 8000)
+              </div>
               <form
                 className="input-form"
                 onSubmit={[Function]}
@@ -4174,7 +5803,7 @@ ShallowWrapper {
                 <input
                   onChange={[Function]}
                   placeholder="Enter a number"
-                  type="text"
+                  type="number"
                   value=""
                 />
                 <input
@@ -4204,7 +5833,7 @@ ShallowWrapper {
                 className="title-text"
               >
                 Generated Numbers 
-                ()
+                
               </div>
               <select
                 className="sort-type"
@@ -4228,21 +5857,26 @@ ShallowWrapper {
                 </option>
               </select>
               <div
-                className="listItem"
+                className="display-numbers"
               >
-                080
-                004956594304956
-              </div>
-              <div
-                className="listItem"
-              >
-                080
-                55567634567654456
+                <div
+                  className="listItem"
+                >
+                  080
+                  004956594304956
+                </div>
+                <div
+                  className="listItem"
+                >
+                  080
+                  55567634567654456
+                </div>
               </div>
               <div
                 className="download-button"
               >
                 <button
+                  className="download-btn"
                   onClick={[Function]}
                 >
                   Download Numbers
@@ -4287,6 +5921,11 @@ ShallowWrapper {
               <div
                 className="display-left"
               >
+                <div
+                  className="title-text"
+                >
+                  Enter Number (Max allowed - 8000)
+                </div>
                 <form
                   className="input-form"
                   onSubmit={[Function]}
@@ -4294,7 +5933,7 @@ ShallowWrapper {
                   <input
                     onChange={[Function]}
                     placeholder="Enter a number"
-                    type="text"
+                    type="number"
                     value=""
                   />
                   <input
@@ -4324,7 +5963,7 @@ ShallowWrapper {
                   className="title-text"
                 >
                   Generated Numbers 
-                  ()
+                  
                 </div>
                 <select
                   className="sort-type"
@@ -4348,21 +5987,26 @@ ShallowWrapper {
                   </option>
                 </select>
                 <div
-                  className="listItem"
+                  className="display-numbers"
                 >
-                  080
-                  004956594304956
-                </div>
-                <div
-                  className="listItem"
-                >
-                  080
-                  55567634567654456
+                  <div
+                    className="listItem"
+                  >
+                    080
+                    004956594304956
+                  </div>
+                  <div
+                    className="listItem"
+                  >
+                    080
+                    55567634567654456
+                  </div>
                 </div>
                 <div
                   className="download-button"
                 >
                   <button
+                    className="download-btn"
                     onClick={[Function]}
                   >
                     Download Numbers
@@ -4380,6 +6024,11 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": Array [
+                  <div
+                    className="title-text"
+                  >
+                    Enter Number (Max allowed - 8000)
+                  </div>,
                   <form
                     className="input-form"
                     onSubmit={[Function]}
@@ -4387,7 +6036,7 @@ ShallowWrapper {
                     <input
                       onChange={[Function]}
                       placeholder="Enter a number"
-                      type="text"
+                      type="number"
                       value=""
                     />
                     <input
@@ -4419,11 +6068,23 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
+                    "children": "Enter Number (Max allowed - 8000)",
+                    "className": "title-text",
+                  },
+                  "ref": null,
+                  "rendered": "Enter Number (Max allowed - 8000)",
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
                     "children": Array [
                       <input
                         onChange={[Function]}
                         placeholder="Enter a number"
-                        type="text"
+                        type="number"
                         value=""
                       />,
                       <input
@@ -4449,7 +6110,7 @@ ShallowWrapper {
                       "props": Object {
                         "onChange": [Function],
                         "placeholder": "Enter a number",
-                        "type": "text",
+                        "type": "number",
                         "value": "",
                       },
                       "ref": null,
@@ -4521,7 +6182,7 @@ ShallowWrapper {
                     className="title-text"
                   >
                     Generated Numbers 
-                    ()
+                    
                   </div>,
                   <select
                     className="sort-type"
@@ -4544,24 +6205,27 @@ ShallowWrapper {
                       descending
                     </option>
                   </select>,
-                  Array [
+                  <div
+                    className="display-numbers"
+                  >
                     <div
                       className="listItem"
                     >
                       080
                       004956594304956
-                    </div>,
+                    </div>
                     <div
                       className="listItem"
                     >
                       080
                       55567634567654456
-                    </div>,
-                  ],
+                    </div>
+                  </div>,
                   <div
                     className="download-button"
                   >
                     <button
+                      className="download-btn"
                       onClick={[Function]}
                     >
                       Download Numbers
@@ -4579,14 +6243,14 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       "Generated Numbers ",
-                      "()",
+                      "",
                     ],
                     "className": "title-text",
                   },
                   "ref": null,
                   "rendered": Array [
                     "Generated Numbers ",
-                    "()",
+                    "",
                   ],
                   "type": "div",
                 },
@@ -4659,37 +6323,63 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": "004956594304956",
+                  "key": undefined,
                   "nodeType": "host",
                   "props": Object {
                     "children": Array [
-                      "080",
-                      "004956594304956",
+                      <div
+                        className="listItem"
+                      >
+                        080
+                        004956594304956
+                      </div>,
+                      <div
+                        className="listItem"
+                      >
+                        080
+                        55567634567654456
+                      </div>,
                     ],
-                    "className": "listItem",
+                    "className": "display-numbers",
                   },
                   "ref": null,
                   "rendered": Array [
-                    "080",
-                    "004956594304956",
-                  ],
-                  "type": "div",
-                },
-                Object {
-                  "instance": null,
-                  "key": "55567634567654456",
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": Array [
-                      "080",
-                      "55567634567654456",
-                    ],
-                    "className": "listItem",
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    "080",
-                    "55567634567654456",
+                    Object {
+                      "instance": null,
+                      "key": "004956594304956",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "080",
+                          "004956594304956",
+                        ],
+                        "className": "listItem",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "080",
+                        "004956594304956",
+                      ],
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "55567634567654456",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "080",
+                          "55567634567654456",
+                        ],
+                        "className": "listItem",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "080",
+                        "55567634567654456",
+                      ],
+                      "type": "div",
+                    },
                   ],
                   "type": "div",
                 },
@@ -4699,6 +6389,7 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": <button
+                      className="download-btn"
                       onClick={[Function]}
                     >
                       Download Numbers
@@ -4712,6 +6403,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "children": "Download Numbers",
+                      "className": "download-btn",
                       "onClick": [Function],
                     },
                     "ref": null,
@@ -4822,6 +6514,11 @@ ShallowWrapper {
           <div
             className="display-left"
           >
+            <div
+              className="title-text"
+            >
+              Enter Number (Max allowed - 8000)
+            </div>
             <form
               className="input-form"
               onSubmit={[Function]}
@@ -4829,7 +6526,7 @@ ShallowWrapper {
               <input
                 onChange={[Function]}
                 placeholder="Enter a number"
-                type="text"
+                type="number"
                 value=""
               />
               <input
@@ -4859,7 +6556,7 @@ ShallowWrapper {
               className="title-text"
             >
               Generated Numbers 
-              ()
+              
             </div>
             <select
               className="sort-type"
@@ -4883,21 +6580,26 @@ ShallowWrapper {
               </option>
             </select>
             <div
-              className="listItem"
+              className="display-numbers"
             >
-              080
-              004956594304956
-            </div>
-            <div
-              className="listItem"
-            >
-              080
-              55567634567654456
+              <div
+                className="listItem"
+              >
+                080
+                004956594304956
+              </div>
+              <div
+                className="listItem"
+              >
+                080
+                55567634567654456
+              </div>
             </div>
             <div
               className="download-button"
             >
               <button
+                className="download-btn"
                 onClick={[Function]}
               >
                 Download Numbers
@@ -4942,6 +6644,11 @@ ShallowWrapper {
             <div
               className="display-left"
             >
+              <div
+                className="title-text"
+              >
+                Enter Number (Max allowed - 8000)
+              </div>
               <form
                 className="input-form"
                 onSubmit={[Function]}
@@ -4949,7 +6656,7 @@ ShallowWrapper {
                 <input
                   onChange={[Function]}
                   placeholder="Enter a number"
-                  type="text"
+                  type="number"
                   value=""
                 />
                 <input
@@ -4979,7 +6686,7 @@ ShallowWrapper {
                 className="title-text"
               >
                 Generated Numbers 
-                ()
+                
               </div>
               <select
                 className="sort-type"
@@ -5003,21 +6710,26 @@ ShallowWrapper {
                 </option>
               </select>
               <div
-                className="listItem"
+                className="display-numbers"
               >
-                080
-                004956594304956
-              </div>
-              <div
-                className="listItem"
-              >
-                080
-                55567634567654456
+                <div
+                  className="listItem"
+                >
+                  080
+                  004956594304956
+                </div>
+                <div
+                  className="listItem"
+                >
+                  080
+                  55567634567654456
+                </div>
               </div>
               <div
                 className="download-button"
               >
                 <button
+                  className="download-btn"
                   onClick={[Function]}
                 >
                   Download Numbers
@@ -5035,6 +6747,11 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": Array [
+                <div
+                  className="title-text"
+                >
+                  Enter Number (Max allowed - 8000)
+                </div>,
                 <form
                   className="input-form"
                   onSubmit={[Function]}
@@ -5042,7 +6759,7 @@ ShallowWrapper {
                   <input
                     onChange={[Function]}
                     placeholder="Enter a number"
-                    type="text"
+                    type="number"
                     value=""
                   />
                   <input
@@ -5074,11 +6791,23 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
+                  "children": "Enter Number (Max allowed - 8000)",
+                  "className": "title-text",
+                },
+                "ref": null,
+                "rendered": "Enter Number (Max allowed - 8000)",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
                   "children": Array [
                     <input
                       onChange={[Function]}
                       placeholder="Enter a number"
-                      type="text"
+                      type="number"
                       value=""
                     />,
                     <input
@@ -5104,7 +6833,7 @@ ShallowWrapper {
                     "props": Object {
                       "onChange": [Function],
                       "placeholder": "Enter a number",
-                      "type": "text",
+                      "type": "number",
                       "value": "",
                     },
                     "ref": null,
@@ -5176,7 +6905,7 @@ ShallowWrapper {
                   className="title-text"
                 >
                   Generated Numbers 
-                  ()
+                  
                 </div>,
                 <select
                   className="sort-type"
@@ -5199,24 +6928,27 @@ ShallowWrapper {
                     descending
                   </option>
                 </select>,
-                Array [
+                <div
+                  className="display-numbers"
+                >
                   <div
                     className="listItem"
                   >
                     080
                     004956594304956
-                  </div>,
+                  </div>
                   <div
                     className="listItem"
                   >
                     080
                     55567634567654456
-                  </div>,
-                ],
+                  </div>
+                </div>,
                 <div
                   className="download-button"
                 >
                   <button
+                    className="download-btn"
                     onClick={[Function]}
                   >
                     Download Numbers
@@ -5234,14 +6966,14 @@ ShallowWrapper {
                 "props": Object {
                   "children": Array [
                     "Generated Numbers ",
-                    "()",
+                    "",
                   ],
                   "className": "title-text",
                 },
                 "ref": null,
                 "rendered": Array [
                   "Generated Numbers ",
-                  "()",
+                  "",
                 ],
                 "type": "div",
               },
@@ -5314,37 +7046,63 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": "004956594304956",
+                "key": undefined,
                 "nodeType": "host",
                 "props": Object {
                   "children": Array [
-                    "080",
-                    "004956594304956",
+                    <div
+                      className="listItem"
+                    >
+                      080
+                      004956594304956
+                    </div>,
+                    <div
+                      className="listItem"
+                    >
+                      080
+                      55567634567654456
+                    </div>,
                   ],
-                  "className": "listItem",
+                  "className": "display-numbers",
                 },
                 "ref": null,
                 "rendered": Array [
-                  "080",
-                  "004956594304956",
-                ],
-                "type": "div",
-              },
-              Object {
-                "instance": null,
-                "key": "55567634567654456",
-                "nodeType": "host",
-                "props": Object {
-                  "children": Array [
-                    "080",
-                    "55567634567654456",
-                  ],
-                  "className": "listItem",
-                },
-                "ref": null,
-                "rendered": Array [
-                  "080",
-                  "55567634567654456",
+                  Object {
+                    "instance": null,
+                    "key": "004956594304956",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "080",
+                        "004956594304956",
+                      ],
+                      "className": "listItem",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "080",
+                      "004956594304956",
+                    ],
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "55567634567654456",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "080",
+                        "55567634567654456",
+                      ],
+                      "className": "listItem",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "080",
+                      "55567634567654456",
+                    ],
+                    "type": "div",
+                  },
                 ],
                 "type": "div",
               },
@@ -5354,6 +7112,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": <button
+                    className="download-btn"
                     onClick={[Function]}
                   >
                     Download Numbers
@@ -5367,6 +7126,7 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": "Download Numbers",
+                    "className": "download-btn",
                     "onClick": [Function],
                   },
                   "ref": null,
@@ -5404,6 +7164,11 @@ ShallowWrapper {
             <div
               className="display-left"
             >
+              <div
+                className="title-text"
+              >
+                Enter Number (Max allowed - 8000)
+              </div>
               <form
                 className="input-form"
                 onSubmit={[Function]}
@@ -5411,7 +7176,7 @@ ShallowWrapper {
                 <input
                   onChange={[Function]}
                   placeholder="Enter a number"
-                  type="text"
+                  type="number"
                   value=""
                 />
                 <input
@@ -5441,7 +7206,7 @@ ShallowWrapper {
                 className="title-text"
               >
                 Generated Numbers 
-                ()
+                
               </div>
               <select
                 className="sort-type"
@@ -5465,21 +7230,26 @@ ShallowWrapper {
                 </option>
               </select>
               <div
-                className="listItem"
+                className="display-numbers"
               >
-                080
-                004956594304956
-              </div>
-              <div
-                className="listItem"
-              >
-                080
-                55567634567654456
+                <div
+                  className="listItem"
+                >
+                  080
+                  004956594304956
+                </div>
+                <div
+                  className="listItem"
+                >
+                  080
+                  55567634567654456
+                </div>
               </div>
               <div
                 className="download-button"
               >
                 <button
+                  className="download-btn"
                   onClick={[Function]}
                 >
                   Download Numbers
@@ -5524,6 +7294,11 @@ ShallowWrapper {
               <div
                 className="display-left"
               >
+                <div
+                  className="title-text"
+                >
+                  Enter Number (Max allowed - 8000)
+                </div>
                 <form
                   className="input-form"
                   onSubmit={[Function]}
@@ -5531,7 +7306,7 @@ ShallowWrapper {
                   <input
                     onChange={[Function]}
                     placeholder="Enter a number"
-                    type="text"
+                    type="number"
                     value=""
                   />
                   <input
@@ -5561,7 +7336,7 @@ ShallowWrapper {
                   className="title-text"
                 >
                   Generated Numbers 
-                  ()
+                  
                 </div>
                 <select
                   className="sort-type"
@@ -5585,21 +7360,26 @@ ShallowWrapper {
                   </option>
                 </select>
                 <div
-                  className="listItem"
+                  className="display-numbers"
                 >
-                  080
-                  004956594304956
-                </div>
-                <div
-                  className="listItem"
-                >
-                  080
-                  55567634567654456
+                  <div
+                    className="listItem"
+                  >
+                    080
+                    004956594304956
+                  </div>
+                  <div
+                    className="listItem"
+                  >
+                    080
+                    55567634567654456
+                  </div>
                 </div>
                 <div
                   className="download-button"
                 >
                   <button
+                    className="download-btn"
                     onClick={[Function]}
                   >
                     Download Numbers
@@ -5617,6 +7397,11 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": Array [
+                  <div
+                    className="title-text"
+                  >
+                    Enter Number (Max allowed - 8000)
+                  </div>,
                   <form
                     className="input-form"
                     onSubmit={[Function]}
@@ -5624,7 +7409,7 @@ ShallowWrapper {
                     <input
                       onChange={[Function]}
                       placeholder="Enter a number"
-                      type="text"
+                      type="number"
                       value=""
                     />
                     <input
@@ -5656,11 +7441,23 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
+                    "children": "Enter Number (Max allowed - 8000)",
+                    "className": "title-text",
+                  },
+                  "ref": null,
+                  "rendered": "Enter Number (Max allowed - 8000)",
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
                     "children": Array [
                       <input
                         onChange={[Function]}
                         placeholder="Enter a number"
-                        type="text"
+                        type="number"
                         value=""
                       />,
                       <input
@@ -5686,7 +7483,7 @@ ShallowWrapper {
                       "props": Object {
                         "onChange": [Function],
                         "placeholder": "Enter a number",
-                        "type": "text",
+                        "type": "number",
                         "value": "",
                       },
                       "ref": null,
@@ -5758,7 +7555,7 @@ ShallowWrapper {
                     className="title-text"
                   >
                     Generated Numbers 
-                    ()
+                    
                   </div>,
                   <select
                     className="sort-type"
@@ -5781,24 +7578,27 @@ ShallowWrapper {
                       descending
                     </option>
                   </select>,
-                  Array [
+                  <div
+                    className="display-numbers"
+                  >
                     <div
                       className="listItem"
                     >
                       080
                       004956594304956
-                    </div>,
+                    </div>
                     <div
                       className="listItem"
                     >
                       080
                       55567634567654456
-                    </div>,
-                  ],
+                    </div>
+                  </div>,
                   <div
                     className="download-button"
                   >
                     <button
+                      className="download-btn"
                       onClick={[Function]}
                     >
                       Download Numbers
@@ -5816,14 +7616,14 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       "Generated Numbers ",
-                      "()",
+                      "",
                     ],
                     "className": "title-text",
                   },
                   "ref": null,
                   "rendered": Array [
                     "Generated Numbers ",
-                    "()",
+                    "",
                   ],
                   "type": "div",
                 },
@@ -5896,37 +7696,63 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": "004956594304956",
+                  "key": undefined,
                   "nodeType": "host",
                   "props": Object {
                     "children": Array [
-                      "080",
-                      "004956594304956",
+                      <div
+                        className="listItem"
+                      >
+                        080
+                        004956594304956
+                      </div>,
+                      <div
+                        className="listItem"
+                      >
+                        080
+                        55567634567654456
+                      </div>,
                     ],
-                    "className": "listItem",
+                    "className": "display-numbers",
                   },
                   "ref": null,
                   "rendered": Array [
-                    "080",
-                    "004956594304956",
-                  ],
-                  "type": "div",
-                },
-                Object {
-                  "instance": null,
-                  "key": "55567634567654456",
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": Array [
-                      "080",
-                      "55567634567654456",
-                    ],
-                    "className": "listItem",
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    "080",
-                    "55567634567654456",
+                    Object {
+                      "instance": null,
+                      "key": "004956594304956",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "080",
+                          "004956594304956",
+                        ],
+                        "className": "listItem",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "080",
+                        "004956594304956",
+                      ],
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "55567634567654456",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "080",
+                          "55567634567654456",
+                        ],
+                        "className": "listItem",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "080",
+                        "55567634567654456",
+                      ],
+                      "type": "div",
+                    },
                   ],
                   "type": "div",
                 },
@@ -5936,6 +7762,7 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": <button
+                      className="download-btn"
                       onClick={[Function]}
                     >
                       Download Numbers
@@ -5949,6 +7776,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "children": "Download Numbers",
+                      "className": "download-btn",
                       "onClick": [Function],
                     },
                     "ref": null,
