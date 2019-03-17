@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "file-saver": "^2.0.1",
+    "gh-pages": "^2.0.1",
     "lodash": "^4.17.11",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
@@ -12,6 +13,8 @@
     "redux": "^4.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -35,5 +38,6 @@
     "enzyme-adapter-react-16": "^1.11.0",
     "react-test-renderer": "^16.8.4",
     "redux-devtools-extension": "^2.13.8"
-  }
+  },
+  "homepage": "https://dammyy.github.io"
 }
