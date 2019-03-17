@@ -1,2 +1,0 @@
-export const ADD_NUMBERS_TO_STATE = 'ADD_NUMBERS_TO_STATE'
-export const CLEAR_STATE = 'CLEAR_STATE'
