@@ -23,7 +23,7 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <div
-          className="title-text"
+          className="min-max-card-title"
         >
           minMax
         </div>,
@@ -43,7 +43,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "minMax",
-          "className": "title-text",
+          "className": "min-max-card-title",
         },
         "ref": null,
         "rendered": "minMax",
@@ -72,7 +72,7 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <div
-            className="title-text"
+            className="min-max-card-title"
           >
             minMax
           </div>,
@@ -92,7 +92,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "minMax",
-            "className": "title-text",
+            "className": "min-max-card-title",
           },
           "ref": null,
           "rendered": "minMax",

@@ -108,6 +108,30 @@ describe("Random numbers page", () => {
     expect(wrapper).toMatchSnapshot();
   });
 
+  it("should display message when input number is greater than allowed max", () => {
+    const props = {
+      randomNumbers: [],
+      randomNumbersAsc: [],
+      randomNumbersDesc: [],
+      maximumNumber: "",
+      minimumNumber: ""
+    };
+
+    const wrapper = shallow(<RandomNumbers {...props} />);
+
+    const { handleChange, generateNumbers } = wrapper.instance();
+    handleChange({
+      target: { value: 9000 }
+    });
+
+    generateNumbers({
+      preventDefault: jest.fn()
+    });
+
+    expect(wrapper.state().message).toEqual('Number exceeds the maximum allowed');
+    expect(wrapper).toMatchSnapshot();
+  });
+
   it("should set state when handleChange is called", () => {
     const props = {
       randomNumbers: [],
