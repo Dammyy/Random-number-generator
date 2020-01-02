@@ -1,13 +1,13 @@
 {
-  "main.css": "/random-number-generator/static/css/main.c40ac3a7.chunk.css",
-  "main.js": "/random-number-generator/static/js/main.87006137.chunk.js",
-  "main.js.map": "/random-number-generator/static/js/main.87006137.chunk.js.map",
-  "runtime~main.js": "/random-number-generator/static/js/runtime~main.832851e7.js",
-  "runtime~main.js.map": "/random-number-generator/static/js/runtime~main.832851e7.js.map",
-  "static/js/2.e90bc7fc.chunk.js": "/random-number-generator/static/js/2.e90bc7fc.chunk.js",
-  "static/js/2.e90bc7fc.chunk.js.map": "/random-number-generator/static/js/2.e90bc7fc.chunk.js.map",
-  "index.html": "/random-number-generator/index.html",
-  "precache-manifest.57eb60d2788b460625cd694e7d798a9e.js": "/random-number-generator/precache-manifest.57eb60d2788b460625cd694e7d798a9e.js",
-  "service-worker.js": "/random-number-generator/service-worker.js",
-  "static/css/main.c40ac3a7.chunk.css.map": "/random-number-generator/static/css/main.c40ac3a7.chunk.css.map"
+  "main.css": "/Random-number-generator/static/css/main.c40ac3a7.chunk.css",
+  "main.js": "/Random-number-generator/static/js/main.87006137.chunk.js",
+  "main.js.map": "/Random-number-generator/static/js/main.87006137.chunk.js.map",
+  "runtime~main.js": "/Random-number-generator/static/js/runtime~main.832851e7.js",
+  "runtime~main.js.map": "/Random-number-generator/static/js/runtime~main.832851e7.js.map",
+  "static/js/2.e90bc7fc.chunk.js": "/Random-number-generator/static/js/2.e90bc7fc.chunk.js",
+  "static/js/2.e90bc7fc.chunk.js.map": "/Random-number-generator/static/js/2.e90bc7fc.chunk.js.map",
+  "index.html": "/Random-number-generator/index.html",
+  "precache-manifest.57eb60d2788b460625cd694e7d798a9e.js": "/Random-number-generator/precache-manifest.57eb60d2788b460625cd694e7d798a9e.js",
+  "service-worker.js": "/Random-number-generator/service-worker.js",
+  "static/css/main.c40ac3a7.chunk.css.map": "/Random-number-generator/static/css/main.c40ac3a7.chunk.css.map"
 }
